@@ -1,0 +1,119 @@
+body {
+  background-color: #0c1014;
+  color: white;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.main-title {
+  font-size: 62px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 46px 0;
+}
+
+.header {
+  display: flex;
+  background-color: #05080a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.header-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  letter-spacing: 2px;
+}
+
+.header-navbar .header-navbar__buttons {
+  display: flex;
+  list-style-type: none;
+  font-size: 18px;
+  gap: 16px;
+
+} 
+.header-navbar__buttons a {
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 6px;
+}
+.header-navbar__buttons a:hover {
+  text-decoration: underline;
+}
+
+a.header-navbar--active {
+  background-color: #cbe300;
+  color: #0c1014;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.container-cards {
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  flex: 1;
+  background-color: #1f262c;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 5px 12px -6px black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  border-bottom: 2px solid #cbe300;
+  margin-top: 0;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.card-infos {
+  flex-grow: 1;
+}
+
+.card-infos .card-infos__price{
+  margin-top: 0;
+}
+.card-infos .card-infos__price span{
+  font-size: 34px;
+}
+
+.card-infos .card-infos__list {
+  margin: 0 0 35px;
+  color: #b5b5b5;
+  padding-left: 16px;
+  line-height: 1.8;
+}
+
+.card-infos .card-infos__list li::marker{
+  color: #cbe300 ;
+}
+
+
+.card-infos__btn {
+  text-decoration: none;
+  color: #0c1014;
+  background-color: #cbe300;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 10px;
+  text-align: center;
+}
+
+.card-infos__btn:hover {
+  outline: 2px solid #cbe300;
+  background-color: transparent;
+  color: white;
+}
