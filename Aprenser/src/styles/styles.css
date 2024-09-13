@@ -123,11 +123,14 @@ span {
   height: 850px;
 }
 
+.container-padded {
+  padding: 120px 0 0;
+}
+
 .main-container__middle h2 {
   font-size: 40px;
   font-weight: 600;
   font-style: normal;
-  margin-top: 70px;
   margin-bottom: 80px;
 }
 
