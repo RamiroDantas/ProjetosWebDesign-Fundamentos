@@ -74,6 +74,7 @@ fieldset {
   margin: auto 10px 10px 0;
   font-size: 18px;
   color: white;
+  cursor: pointer;
   border: none;
   padding: 20px;
   background-color: #212121;
