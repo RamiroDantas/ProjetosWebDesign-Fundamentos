@@ -82,26 +82,16 @@ fieldset {
   background-color: #212121;
 }
 
-.form-contact__camps input:focus:invalid {
+.form-contact__camps input:focus:invalid,  textarea:focus:invalid {
   border-color: red;
   background-color: #5f5f5f;
 }
 
-.form-contact__camps input:valid {
+.form-contact__camps input:valid, textarea:valid {
   background-color: #5f5f5f;
   border-color: green;
 }
 
-
-.form-contact__camps textarea:focus:invalid {
-  border-color: red;
-  background-color: #5f5f5f;
-}
-
-.form-contact__camps textarea:valid {
-  background-color: #5f5f5f;
-  border-color: green;
-}
 
 input, label, textarea {
   box-sizing: border-box;
