@@ -1,0 +1,29 @@
+a[href*="serfrontend.com"]::after {
+  content: url('../imagens/newWindow-icon.png');
+  display: inline-block;
+  margin-left: 5px;
+}
+
+a[href*="qq.pdf"]::before {
+  content: url('../imagens/pdf-icon.gif');
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+input[type="checkbox"]:checked + label {
+  color: green;
+}
+
+/* Label após checkbox não marcado */
+input[type="checkbox"]:not(:checked) + label {
+  color: red;
+}
+
+input[type="checkbox"]:disabled+label {
+  color: blue;
+}
+
+li li:nth-child(3) {
+  background: #d0eaff;
+}
